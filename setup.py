@@ -20,7 +20,7 @@ setup(
     url='https://github.com/kuromt/sanfrancisco_house',
     license=license,
     entry_points={
-        'mlflow.run_context_provider': 'plugin_example:LoggingPlugin',
+        'mlflow.run_context_provider': 'plugin_example:logging_example.LoggingExample',
     },
     packages=find_packages(),
     include_package_data=True,
